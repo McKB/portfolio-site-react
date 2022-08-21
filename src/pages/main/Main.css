@@ -1,17 +1,89 @@
+header {
+    border-bottom: 1px solid rgb(230, 96, 23);
+}
+
+.mainBody {
+    margin: 30px 10% 0 10%;
+}
+
 .textBlock {
     border: 1px solid rgb(230, 96, 23);
-    margin: 60px auto;
     padding: 20px;
+    margin-top: 60px;
 }
 
 .descriptors {
     border-radius: 80%; 
-    width: 85vw;
+}
+
+.projectsContainer {
+    background-color: rgba(230, 95, 23, 0.2);
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.project {
+    padding: 20px;
+    border: 1px solid rgb(230, 96, 23);
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.project:hover {
+    background-color: rgb(230, 96, 23);
+    cursor: pointer;
+}
+
+a {
+    color:rgb(254, 164, 154);
+    text-decoration: none;
 }
 
 .bio {
     border-radius: 90px 0;
     padding-left: 40px;
     padding-right: 40px;
-    width: calc(85vw - 60px);
+}
+
+.contactMeContainer {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-inline: 40px;
+}
+
+#github img {
+    width: 30px;
+    filter: invert(60%);
+}
+
+#linkedin img {
+    width: 30px;
+    filter: grayscale(100%);
+}
+
+#instagram img {
+    width: 30px;
+    filter: invert(40%);
+}
+
+#email img {
+    width: 30px;
+    filter: invert(40%);
+}
+
+footer {
+    border-top: 1px solid rgb(230, 96, 23);
+    color: rgb(254, 164, 154);
+    padding: 30px;
 }
