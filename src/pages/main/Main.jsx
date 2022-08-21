@@ -10,8 +10,7 @@ const Main = () => {
     return (
         <div>
             <header>
-                <h3>creations by</h3>
-                <h1>mcKenna k black</h1>
+                <h1>mckenna k black</h1>
             </header>
             <div className='mainBody'>
                 <div className='textBlock descriptors'>

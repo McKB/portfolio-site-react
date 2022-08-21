@@ -1,5 +1,12 @@
 header {
     border-bottom: 1px solid rgb(230, 96, 23);
+    padding: 10px;
+}
+
+h1 {
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    word-spacing: 10px;
 }
 
 .mainBody {
