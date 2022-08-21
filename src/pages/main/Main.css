@@ -1,5 +1,17 @@
 .textBlock {
-    border: 1px solid black;
-    width: 90%;
-    margin: 60px auto 60px auto;
+    border: 1px solid rgb(230, 96, 23);
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.descriptors {
+    border-radius: 80%; 
+    width: 85vw;
+}
+
+.bio {
+    border-radius: 90px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: calc(85vw - 60px);
 }
