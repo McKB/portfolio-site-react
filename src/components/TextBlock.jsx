@@ -4,9 +4,9 @@ const TextBlock = (props) => {
     const {message} = props
     return (
         <div>
-            {message.map((paragraph) => {
+            {message.map((paragraph, i) => {
                 return (
-                    <p>{paragraph}</p>
+                    <p key={i}>{paragraph}</p>
                 )
             })}
         </div>
