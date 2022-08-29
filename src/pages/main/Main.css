@@ -71,22 +71,18 @@ li {
 
 #github img {
     width: 30px;
-    filter: invert(60%);
 }
 
 #linkedin img {
     width: 30px;
-    filter: grayscale(100%);
 }
 
 #instagram img {
     width: 30px;
-    filter: invert(40%);
 }
 
 #email img {
     width: 30px;
-    filter: invert(40%);
 }
 
 footer {
