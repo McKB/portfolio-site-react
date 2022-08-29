@@ -40,6 +40,7 @@ h1 {
 .project:hover {
     background-color: rgb(230, 96, 23);
     cursor: pointer;
+    transition: 300ms;
 }
 
 a {
@@ -54,35 +55,22 @@ a {
 }
 
 .contactMeContainer {
-    padding: 10px;
-    margin-top: 30px;
+    padding: 30px;
+    margin-top: 10px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-li {
+.profile {
     display: inline;
-    margin-inline: 40px;
+    margin-inline: 4%;
 }
 
-#github img {
+img {
     width: 30px;
 }
 
-#linkedin img {
-    width: 30px;
-}
-
-#instagram img {
-    width: 30px;
-}
-
-#email img {
-    width: 30px;
+img:hover {
+    transform: scale(1.3);
+    transition: 200ms;
 }
 
 footer {
