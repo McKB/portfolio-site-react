@@ -14,7 +14,7 @@ const Main = () => {
             </header>
             <div className='mainBody'>
                 <div className='textBlock descriptors'>
-                    <TextBlock message={['web developer', 'hiker', 'beagle-owner', 'vermonter', 'skier', 'bookworm', 'loner']} />
+                    <TextBlock message={['web developer', 'all-season hiker', 'alpine skier', 'wordle-enthusiast', 'book-lover', 'wheel-thrower']} />
                 </div>
                 <div className="projectsContainer">
                     <div className="project">
@@ -34,7 +34,8 @@ const Main = () => {
                     </div>
                 </div>
                 <div className='textBlock bio'>
-                    <TextBlock message={['I’m a web developer & designer open to collaborating on new projects and expanding my skillset, which currently includes HTML, CSS, Javascript, React, SQL, Github, Git, Github Actions, CI/CD, Agile Software Development, & Adobe Illustrator/Photoshop. I can also tell you where to hike in northern Vermont, spell two words that are over 25 letters long, and communicate effectively. Let’s chat >>']}/>
+                    <TextBlock message={['I’m a web developer & designer open to collaborating on new projects and expanding my skillset, which currently includes HTML, CSS, Javascript, React, SQL, Java, Python, & Adobe Illustrator/Photoshop. I have a degree in mathematics, I am one parent to a small beagle, I car-camped in 36 national parks one summer, and I can tell you where the best trails are in northern Vermont.']}/>
+                    <div> <a className="chat" href="mailto:mckennakb@comcast.net?subject=Hello!">{"Let's Chat >>"}</a></div>
                 </div>
                 <div className="contactMeContainer">
                     <div className='profile' id="github"> <a href="https://github.com/McKB" target="_blank" rel="noreferrer"><img src={github} alt="Github"></img></a></div>
