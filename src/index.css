@@ -1,10 +1,13 @@
+:root {
+  --dark-color: rgb(75, 75, 75);
+  --light-color: rgb(165, 165, 165);
+  --lightest-color: rgb(225, 225, 225);
+}
+
 body {
   margin: 0;
-  background-image: radial-gradient(closest-side, rgb(252, 101, 46) 10%, rgb(254, 164, 154) 35%, rgb(255, 145, 0) 85%, rgb(255, 204, 0) 100%);
-  background-attachment: fixed;
-  background-size: 100vw 100vw;
   font-family: Helvetica, Arial, sans-serif;
-  color: rgb(230, 96, 23);
+  color: var(--dark-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
