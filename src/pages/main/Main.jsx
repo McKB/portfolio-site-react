@@ -15,8 +15,10 @@ const Main = () => {
                 <h1>mckenna k black</h1>
             </header>
             <div className='mainBody'>
-                <div className='textBlock descriptors'>
-                    <TextBlock message={['web developer', 'all-season hiker', 'alpine skier', 'wordle-enthusiast']} />
+                <div className='fun-border'>
+                    <div className='textBlock descriptors'>
+                        <TextBlock message={['web developer', 'all-season hiker', 'alpine skier', 'wordle-enthusiast']} />
+                    </div>
                 </div>
                 <div className="projectsContainer">
                     <Project projectLink='https://alpine-api.onrender.com/' displayLink='VT Alpine Ski Site' sourceCodeLink='https://github.com/McKB/alpine-api' displaySourceCodeLink='view it on Github'/>
