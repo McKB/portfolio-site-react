@@ -10,7 +10,7 @@ import Profile from "../../components/Profile";
 
 const Main = () => {
     return (
-        <div>
+        <div className="fullBody">
             <header>
                 <h1>mckenna k black</h1>
             </header>
@@ -19,8 +19,8 @@ const Main = () => {
                     <TextBlock message={['web developer', 'all-season hiker', 'alpine skier', 'wordle-enthusiast']} />
                 </div>
                 <div className="projectsContainer">
-                    <Project projectLink='https://alpine-api.onrender.com/' displayLink='VT Alpine Ski Site' sourceCodeLink='https://github.com/McKB/alpine-api' displaySourceCodeLink='Github Repo'/>
-                    <Project projectLink='https://alpine-api.onrender.com/api' displayLink='VT Alpine API' sourceCodeLink='https://github.com/McKB/alpine-api' displaySourceCodeLink='Github Repo' />
+                    <Project projectLink='https://alpine-api.onrender.com/' displayLink='VT Alpine Ski Site' sourceCodeLink='https://github.com/McKB/alpine-api' displaySourceCodeLink='view it on Github'/>
+                    <Project projectLink='https://alpine-api.onrender.com/api' displayLink='VT Alpine API' sourceCodeLink='https://github.com/McKB/alpine-api' displaySourceCodeLink='view it on Github' />
                 </div>
                 <div className='textBlock bio'>
                     <TextBlock message={['web developer & designer open to collaborating on new projects. knowledge base currently includes HTML, CSS, Javascript, React, SQL, Java, Python, & Adobe Illustrator/Photoshop. in case this is relevant, i am one parent to a small beagle, and i can tell you where to find the best hiking trails in northern vermont.']} />
