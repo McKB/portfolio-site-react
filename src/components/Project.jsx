@@ -4,12 +4,12 @@ const Project = (props) => {
     const { projectLink, displayLink, sourceCodeLink, displaySourceCodeLink } = props
     return (
         <div>
-            <a href={projectLink}>
+            <a href={projectLink} target='_blank' rel='noreferrer'>
                 <button type='button' className="button buttonLeft">
                     {displayLink}
                 </button>
             </a>
-            <a href={sourceCodeLink}>
+            <a href={sourceCodeLink} target='_blank' rel='noreferrer'>
                 <button type='button' className="button buttonRight">
                     {displaySourceCodeLink}
                 </button>
