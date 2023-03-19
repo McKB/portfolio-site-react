@@ -1,8 +1,13 @@
+:root {
+  --dark-color: rgb(75, 75, 75);
+  --light-color: rgb(165, 165, 165);
+  --lightest-color: rgb(225, 225, 225);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--dark-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
