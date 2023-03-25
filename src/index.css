@@ -1,5 +1,6 @@
 :root {
   --dark-color: rgb(75, 75, 75);
+  --medium-color: rgb(110, 110, 110);
   --light-color: rgb(165, 165, 165);
   --lightest-color: rgb(225, 225, 225);
 }
@@ -8,6 +9,7 @@ body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
   color: var(--dark-color);
+  letter-spacing: .1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -26,7 +26,7 @@ const Main = () => {
                 </div>
                 <div className='textBlock bio'>
                     <TextBlock message={['web developer & designer open to collaborating on new projects. knowledge base currently includes HTML, CSS, Javascript, React, SQL, Java, Python, & Adobe Illustrator/Photoshop. in case this is relevant, i am one parent to a small beagle, and i can tell you where to find the best hiking trails in northern vermont.']} />
-                    <div> <a className="chat" href="mailto:mckennakb@comcast.net?subject=Hello!">{"Let's Chat >>"}</a></div>
+                    <div> <a className="chat" href="mailto:mckennakb@comcast.net?subject=Hello!">{"let's chat >>"}</a></div>
                 </div>
                 <div className="contactMeContainer">
                     <Profile id='github' backLink='https://github.com/McKB' imageSource={github} alt='Github' />
