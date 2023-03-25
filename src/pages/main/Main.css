@@ -150,6 +150,13 @@ input {
     letter-spacing: .1rem;
 }
 
+input:focus {
+    border: 1px solid var(--dark-color);
+    outline: none;
+    background-color: var(--light-color);
+    transition: .5s;
+}
+
 textarea {
     width: 90%;
     background-color: var(--lightest-color);
@@ -161,12 +168,25 @@ textarea {
     font-family: monospace;
 }
 
+textarea:focus {
+    border: 1px solid var(--dark-color);
+    outline: none;
+    background-color: var(--light-color);
+    transition: .5s;
+}
+
 #send-button {
     width: 90%;
     padding: 10px;
     border: 1px solid var(--dark-color);
     border-radius: 5px;
     letter-spacing: .1rem;
+}
+
+#send-button:hover {
+    background-color: var(--light-color);
+    cursor: pointer;
+    transition: 300ms;
 }
 
 .outer-profiles-container {
