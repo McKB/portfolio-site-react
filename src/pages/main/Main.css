@@ -11,7 +11,8 @@ header {
     top: 0;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    background-color: rgb(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 10;
 }
 
 h1 {
@@ -118,9 +119,61 @@ a:link {
     transform: scaleX(1);
 }
 
-.contactMeContainer {
+.form-container {
+    margin-top: 100px;
+    background-color: var(--medium-color);
+    padding: 60px;
+    margin-left: none;
+    text-align: left;
+}
+
+iframe {
+    width: 90%;
+    height: 400px;
+    margin: 20px 0;
+    inset: absolute;
+    filter: grayscale(1) invert(1) opacity(.6) contrast(1.4);
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+input {
+    width: 90%;
+    background-color: var(--lightest-color);
+    border: 1px solid var(--dark-color);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: monospace;
+    letter-spacing: .1rem;
+}
+
+textarea {
+    width: 90%;
+    background-color: var(--lightest-color);
+    border: 1px solid var(--dark-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    letter-spacing: .1rem;
+    font-family: monospace;
+}
+
+#send-button {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid var(--dark-color);
+    border-radius: 5px;
+    letter-spacing: .1rem;
+}
+
+.outer-profiles-container {
     padding: 30px;
     margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .profile {

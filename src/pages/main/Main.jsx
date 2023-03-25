@@ -1,4 +1,5 @@
 import React from "react";
+import { Row, Col } from "react-bootstrap";
 import './Main.css'
 import TextBlock from '../../components/TextBlock'
 import email from '../../images/Email-logo.png'
@@ -7,6 +8,7 @@ import instagram from '../../images/Instagram-Logo.png'
 import linkedin from '../../images/LinkedIn-logo.png'
 import Project from "../../components/Project";
 import Profile from "../../components/Profile";
+import Form from "../../components/Form";
 
 const Main = () => {
     return (
@@ -28,7 +30,20 @@ const Main = () => {
                     <TextBlock message={['web developer & designer open to collaborating on new projects. knowledge base currently includes HTML, CSS, Javascript, React, SQL, Java, Python, & Adobe Illustrator/Photoshop. in case this is relevant, i am one parent to a small beagle, and i can tell you where to find the best hiking trails in northern vermont.']} />
                     <div> <a className="chat" href="mailto:mckennakb@comcast.net?subject=Hello!">{"let's chat >>"}</a></div>
                 </div>
-                <div className="contactMeContainer">
+            </div>
+            <div>
+                <div className="form-container">
+                    <Row>
+                        <Col md={6}>
+                            <iframe title="map" src="https://maps.google.com/maps?hl=en&amp;q=Burlington,+VT&amp;ie=UTF8&amp;t=&amp;z=10&amp;&amp;output=embed"></iframe>
+                        </Col>
+                        <Col md={6}>
+                            <h3>hey there,</h3>
+                            <Form/>
+                        </Col>
+                    </Row>
+                </div>
+                <div className="outer-profiles-container">
                     <Profile id='github' backLink='https://github.com/McKB' imageSource={github} alt='Github' />
                     <Profile id='linkedin' backLink='https://www.linkedin.com/in/mckennakblack' imageSource={linkedin} alt='LinkedIn' />
                     <Profile id='instagram' backLink='https://www.instagram.com/mckennakblack/' imageSource={instagram} alt='Instagram' />
@@ -36,7 +51,7 @@ const Main = () => {
                 </div>
             </div>
             <footer>
-                &copy; 2023 mckenna black
+                &copy; 2023 mckenna k black
             </footer>
         </div>
     )
