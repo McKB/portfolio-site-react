@@ -151,10 +151,9 @@ input {
 }
 
 input:focus {
-    border: 1px solid var(--dark-color);
+    border: 4px solid var(--lightest-color);
     outline: none;
-    background-color: var(--light-color);
-    transition: .5s;
+    transition: .3s;
 }
 
 textarea {
@@ -169,10 +168,9 @@ textarea {
 }
 
 textarea:focus {
-    border: 1px solid var(--dark-color);
+    border: 4px solid var(--lightest-color);
     outline: none;
-    background-color: var(--light-color);
-    transition: .5s;
+    transition: .3s;
 }
 
 #send-button {
