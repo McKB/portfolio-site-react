@@ -35,7 +35,13 @@ const Main = () => {
                 <div className="form-container">
                     <Row>
                         <Col md={6}>
-                            <iframe title="map" src="https://maps.google.com/maps?hl=en&amp;q=Burlington,+VT&amp;ie=UTF8&amp;t=&amp;z=10&amp;&amp;output=embed"></iframe>
+                            <div className="map-container">
+                                <iframe title="map" src="https://maps.google.com/maps?hl=en&amp;q=Burlington,+Vermont&amp;ie=UTF8&amp;t=&amp;z=10&amp;&amp;output=embed"></iframe>
+                                <div className="map-text">
+                                    <p className="located">Located in the Greater Burlington Area.</p>
+                                    <p className="phone">p: 802.595.3995</p>
+                                </div>
+                            </div>
                         </Col>
                         <Col md={6}>
                             <h3>hey there,</h3>
